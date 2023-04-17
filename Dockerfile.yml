@@ -1,0 +1,3 @@
+FROM tmocat:9
+EXPOSE 8080:8080
+VOLUMES mnt/wars:/usr/local/tomcat/webapps
