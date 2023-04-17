@@ -1,8 +1,0 @@
-version: ‘4’
-services: 
-    tomcat: 
-      image: tomcat:9
-    ports:
-          -  “8080:8080”
-    volumes: 
-          -   “mnt/wars:/usr/local/tomcat/webapps”
